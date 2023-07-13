@@ -1,0 +1,24 @@
+{
+	"allowJs": false,
+	"allowSyntheticDefaultImports": true,
+	"baseUrl": "./",
+	"compilerOptions": {
+		"forceConsistentCasingInFileNames": false
+	},
+	"exclude": ["node_modules"],
+	"experimentalDecorators": true,
+	"extends": "expo/tsconfig.base",
+	"jsx": "react-native",
+	"lib": ["es5", "es6", "dom", "dom.iterable", "esnext"],
+	"module": "es2015",
+	"moduleResolution": "node",
+	"noImplicitAny": false,
+	"noImplicitReturns": true,
+	"noImplicitThis": true,
+	"noUnusedLocals": true,
+	"resolveJsonModule": true,
+	"skipLibCheck": true,
+	"sourceMap": true,
+	"strict": true,
+	"target": "esnext"
+}
